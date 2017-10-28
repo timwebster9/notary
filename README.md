@@ -6,7 +6,7 @@ Project for running the [official Notary images](https://hub.docker.com/_/notary
 
 Import the root CA from the project into your OS.  For example, on Ubuntu:
 
-    sudo cp certs/root-ca.crt /usr/local/share/ca-certificates/root-ca.crt && update-ca-certificates
+    sudo cp certs/root-ca.crt /usr/local/share/ca-certificates/root-ca.crt && sudo update-ca-certificates
 
 Start the services:
 
