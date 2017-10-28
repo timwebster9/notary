@@ -2,6 +2,8 @@
 
 Project for running the [official Notary images](https://hub.docker.com/_/notary/), NOT the [development/testing project](https://github.com/theupdateframework/notary)
 
+The TLS certificates and SQL files were obtained from the [Notary project](https://github.com/theupdateframework/notary)
+
 ## Use
 
 Import the root CA from the project into your OS.  For example, on Ubuntu:
