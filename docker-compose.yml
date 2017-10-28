@@ -17,6 +17,7 @@ services:
     environment:
       - TERM=dumb
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=notaryserver
       - MYSQL_USER=server
       - MYSQL_PASSWORD=server
     command: mysqld --innodb_file_per_table
@@ -36,6 +37,7 @@ services:
     environment:
       - TERM=dumb
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=notarysigner
       - MYSQL_USER=signer
       - MYSQL_PASSWORD=signer
     command: mysqld --innodb_file_per_table
