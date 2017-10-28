@@ -23,6 +23,7 @@ services:
     command: mysqld --innodb_file_per_table
     volumes:
       - /etc/volumes/notary-server-data:/var/lib/mysql
+      - ./sql/server:/docker-entrypoint-initdb.d
 
   notarysigner:
     image: notary:signer-0.5.0
@@ -43,4 +44,5 @@ services:
     command: mysqld --innodb_file_per_table
     volumes:
       - /etc/volumes/notary-signer-data:/var/lib/mysql
+      - ./sql/signer:/docker-entrypoint-initdb.d
 
