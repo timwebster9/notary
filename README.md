@@ -1,6 +1,6 @@
 # Notary
 
-Project for running the [official Notary images](https://hub.docker.com/_/notary/), NOT the [development/testing project](https://github.com/theupdateframework/notary)
+Project for running the [official Notary images](https://hub.docker.com/_/notary/), NOT using the dev/testing methods described in the [Docker Trust tutorial](https://docs.docker.com/engine/security/trust/trust_sandbox/), or as described in [running your own servce](https://github.com/theupdateframework/notary/blob/master/docs/running_a_service.md)
 
 The TLS certificates and SQL files were obtained from the [Notary project](https://github.com/theupdateframework/notary)
 
